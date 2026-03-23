@@ -1,6 +1,17 @@
 #include "mlp_coefs.h"
 #include "mlp_intercepts.h"
 
+/*
+Random number generator:
+
+Press, W.H. et al.,
+Numerical Recipes in C
+The Art of Scientific Computing 2nd Ed.
+1992.
+Chapter 7, Random Numbers.
+
+  */
+
 #define IA 16807
 #define IM 2147483647
 #define AM (1.0/IM)
