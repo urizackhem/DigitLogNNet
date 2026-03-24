@@ -1,6 +1,7 @@
 from pathlib import Path
 import numpy as np
 
+# CONVERTING numpy arrays to C++ h-file constants.
 
 def make_line(arr, factor=None):
     str_format = "{fval:.6f}f" if factor is None else "{int(np.round(fval * factor))}"
