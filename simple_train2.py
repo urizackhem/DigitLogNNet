@@ -7,6 +7,8 @@ from read_mnist import load_mnist_input, load_mnist_labels
 import pickle
 from tqdm import tqdm
 
+# TRAINING SCRIPT
+
 
 def nr_ran0(num):
     IA = 16807
