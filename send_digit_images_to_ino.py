@@ -5,6 +5,7 @@ import serial
 import time
 from random import shuffle, seed
 
+# You can get the MNIST digit dataset from here: https://www.kaggle.com/datasets/hojjatk/mnist-dataset
 
 def load_mnist_input(path):
     with open(path, 'rb') as f:
